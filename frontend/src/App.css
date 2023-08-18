@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  padding: 0.2rem 1rem;
+  background-color: #196478;
+  overflow: hidden;
+}
+
+.nav-ul,
+.nav-right {
+  list-style: none;
+}
+
+.nav-ul li {
+  float: left;
+  padding: 10px 20px;
+}
+
+.nav-right li {
+  float: right;
+  padding: 10px 20px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #196478;
+  color: #fff;
+  padding: 0.6rem 0;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px auto;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #196478;
+}
+
+.myButton {
+  width: 10rem;
+  /* left: 0; */
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: rgb(45, 156, 156);
+  cursor: pointer;
+  color: white;
+}
+.register button:hover,
+.login button:hover {
+  background-color: #196478;
+}
+
+.logo {
+  width: 50px;
+  float: left;
+  border-radius: 50%;
+}
+
+.product-list {
+  margin-top: 50px;
+}
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid #196478;
+  padding: 5px;
+  width: 8rem;
+}
+.product-list h2 {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  margin: 1rem;
+  width: 25%;
+  padding-left: 10px;
+  border: 1px solid #196478;
+  height: 2rem;
+}
